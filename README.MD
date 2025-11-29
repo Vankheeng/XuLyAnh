@@ -87,6 +87,7 @@ pip install streamlit streamlit-drawable-canvas tensorflow opencv-python pillow 
 streamlit run app.py
 
 ## Sơ đồ thư mục 
+
 ```
 AI-Handwriting-Shape-Recognition/
 │
@@ -128,11 +129,21 @@ AI-Handwriting-Shape-Recognition/
 ## Kết quả
 ### Nhận diện chữ viết
 #### Hình vẽ bằng chuột
-![Demo](\results\handwriting\draw\z7273981187482_11c7783ad9d6975e8ea1a98854631f68.jpg)
-![Demo](\results\handwriting\draw\z7273994397125_9e8d8143e2da13b6207fe6908f33c256.jpg)
-![Demo](\results\handwriting\draw\z7273998727398_f5ab3582427c0f12449c89be0f63c893.jpg)
-![Demo](\results\handwriting\draw\z7274004395312_e271ee5ba093420f41c9018bc464c8d6.jpg)
+![Demo](results/handwriting/draw/z7273981187482_11c7783ad9d6975e8ea1a98854631f68.jpg)
+![Demo](results/handwriting/draw/z7273994397125_9e8d8143e2da13b6207fe6908f33c256.jpg)
+![Demo](results/handwriting/draw/z7273998727398_f5ab3582427c0f12449c89be0f63c893.jpg)
+![Demo](results/handwriting/draw/z7274004395312_e271ee5ba093420f41c9018bc464c8d6.jpg)
 #### Hình vẽ up lên
+![Demo](results/handwriting/upload images/z7274070307616_1fa90dad6679ae2665fa2484a8c5e2d8.jpg)
+![Demo](results/handwriting/upload images/z7274191132579_8b293393a92b50c4de7ed7e3aa978b46.jpg)
+![Demo](results/handwriting/upload images/z7274219060178_14188f5b2aa2b2148beb44a956f58e78.jpg)
 ### Nhận diện hình dạng
 #### Hình vẽ bằng chuột
+![Demo](results/shape/draw/z7276007957680_034a9b6980d3ac485661b19881d07f85.jpg)
+![Demo](results/shape/draw/z7276058011642_3f2149a85febed9cac3f84771dabb577.jpg)
+![Demo](results/shape/draw/z7276076643382_cfcae60d7d2e0eea4934dd15c716f64f.jpg)
 #### Hình vẽ up lên
+![Demo](results/shape/upload images/z7276067976282_c601ec7dfe12589b95e2688a9f52a1e8.jpg)
+![Demo](results/shape/upload images/z7276070480413_bde201ef3e75189ae2ecfb58f88c1b90.jpg)
+![Demo](results/shape/upload images/z7276071741427_2b6c8158e3d39a3fd05468bffc34ac63.jpg)
+
