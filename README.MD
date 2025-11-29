@@ -1,10 +1,11 @@
 # Nhận dạng chữ viết và hình dạng đơn giản bằng mạng neural
 
-Web app cho phép bạn:
-- **Vẽ chữ viết tay** bằng chuột → nhận diện chữ cái(tiếng Anh + một số ký tự đặc biệt)
+Web app cho phép:
+- **Vẽ chữ viết tay hoặc tải lên** chữ cái → nhận diện chữ cái(tiếng Anh + một số ký tự đặc biệt)
 - **Vẽ hoặc tải lên** hình tròn, vuông, tam giác → dự đoán chính xác loại hình
 
 Toàn bộ được xây dựng bằng **Python + Streamlit + TensorFlow/Keras**.
+
 Model được train trên kaggle vì dữ liệu sẵn, xử lý dữ liệu lớn mà không phải tải xuống, tận dụng GPU được cấp miễn phí.
 
 ## Nguồn dữ liệu sử dụng
@@ -104,7 +105,7 @@ AI-Handwriting-Shape-Recognition/
 │   │   ├── draw/
 │   │   │   ├── z7273981187482_...jpg
 │   │   │   ├── z7273994379125_...jpg
-│   │   │   └── ... (các ảnh bạn vẽ tay)
+│   │   │   └── ... (các ảnh vẽ tay)
 │   │   └── upload_images/
 │   │       ├── z727470307616_...jpg
 │   │       └── ... (các ảnh tải lên)
