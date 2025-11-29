@@ -85,6 +85,7 @@ pip install streamlit streamlit-drawable-canvas tensorflow opencv-python pillow 
 
 # 4. Chạy app
 streamlit run app.py
+``` 
 
 ## Sơ đồ thư mục 
 
@@ -146,4 +147,5 @@ AI-Handwriting-Shape-Recognition/
 ![Demo](results/shape/upload images/z7276067976282_c601ec7dfe12589b95e2688a9f52a1e8.jpg)
 ![Demo](results/shape/upload images/z7276070480413_bde201ef3e75189ae2ecfb58f88c1b90.jpg)
 ![Demo](results/shape/upload images/z7276071741427_2b6c8158e3d39a3fd05468bffc34ac63.jpg)
+
 
