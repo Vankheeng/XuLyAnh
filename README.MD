@@ -52,10 +52,6 @@ Model được train trên kaggle vì dữ liệu sẵn, xử lý dữ liệu l�
 Tất cả ảnh người dùng nhập vào đều được xử lý **real-time**, không lưu trữ.
 
 
-
-
-![Demo](demo.png) *(ảnh chụp màn hình ở dưới cùng)*
-
 ## Các tính năng chính
 - Vùng vẽ rộng rãi, thoải mái (700×220 cho chữ, 320×320 cho hình)
 - Tự động crop vùng có chữ (không cần viết vừa khung)
@@ -147,5 +143,6 @@ AI-Handwriting-Shape-Recognition/
 ![Demo](results/shape/upload images/z7276067976282_c601ec7dfe12589b95e2688a9f52a1e8.jpg)
 ![Demo](results/shape/upload images/z7276070480413_bde201ef3e75189ae2ecfb58f88c1b90.jpg)
 ![Demo](results/shape/upload images/z7276071741427_2b6c8158e3d39a3fd05468bffc34ac63.jpg)
+
 
 
