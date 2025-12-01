@@ -7,12 +7,12 @@ import numpy as np
 from PIL import Image
 
 st.set_page_config(page_title="AI Nhận Diện Chữ & Hình Dạng", layout="wide")
-st.title("Nhận Diện Chữ Viết Tay & Hình Dạng Đơn Giản")
+st.title("Nhận Diện Chữ Viết  & Hình Dạng Đơn Giản")
 
 # ================= LOAD MODELS =================
 @st.cache_resource
 def load_models():
-    with st.spinner("Đang tải mô hình chữ viết tay..."):
+    with st.spinner("Đang tải mô hình chữ viết ..."):
         model_chuviet = tf.keras.models.load_model('models\handwriting_model.h5', compile=False)
     with st.spinner("Đang tải mô hình hình dạng..."):
         model_hinhdang = tf.keras.models.load_model('models\shape_detector_3classes.h5')
@@ -20,8 +20,8 @@ def load_models():
 
 model_chuviet, model_hinhdang = load_models()
 
-# ================= TAB CHỮ VIẾT TAY =================
-tab1, tab2 = st.tabs(["Chữ Viết Tay", "Hình Dạng"])
+# ================= TAB CHỮ VIẾT  =================
+tab1, tab2 = st.tabs(["Chữ Viết", "Hình Dạng"])
 
 with tab1:
     st.header("Viết chữ bằng tay hoặc tải ảnh lên")
@@ -43,7 +43,7 @@ with tab1:
         )
 
         uploaded = st.file_uploader(
-            "Hoặc tải ảnh chữ viết tay lên",
+            "Hoặc tải ảnh chữ viết lên",
             type=["png", "jpg", "jpeg"],
             key="upload_chu"
         )
@@ -167,4 +167,4 @@ with tab2:
 
 # ================= FOOTER =================
 st.markdown("---")
-st.caption("Web by Nhóm 6 - D22CNPM02 - AI Nhận Diện Chữ Viết Tay & Hình Dạng Đơn Giản ")
+st.caption("Website by Nhóm 7 - D22CNPM02 - AI Nhận Diện Chữ Viết & Hình Dạng Đơn Giản ")
