@@ -35,6 +35,7 @@ Xây dựng một **ứng dụng web tương tác** cho phép người dùng:
 |Trần Mai Hương         | B22DCCN424         |
 |Nguyễn Thị Khánh Vân   | B22DCCN892         |
 - Lớp: D22CNPM02
+- Nhóm: 07
 - Môn học: Xử lý ảnh 
 
 ---
